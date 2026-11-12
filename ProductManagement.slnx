@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="OrderManagement.API/OrderManagement.API.csproj" Id="0e666537-29a3-4242-959c-23def8fbcaf8" />
+  <Project Path="ProductManagement.API/ProductManagement.API.csproj" />
+  <Project Path="ProductManagement.Functions/ProductManagement.Functions.csproj" Id="bb1698a4-7ede-4d3a-896a-974e269bfc74" />
+  <Project Path="StudentPortal/StudentPortal.csproj" Id="ae7e5ba5-872e-4102-a553-6bd9da1e3bf9" />
+</Solution>

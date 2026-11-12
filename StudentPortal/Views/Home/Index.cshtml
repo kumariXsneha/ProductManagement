@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home";
+    string myName = "Kumari";
+    int year = DateTime.Now.Year;
+}
+
+<div class="text-center">
+    <h1 class="text-primary">Welcome to Student Portal</h1>
+    <p>Hello, my name is <b>@myName</b>.</p>
+    <p>The current year is @year.</p>
+    <ul class="su   b">
+        <li>English</li>
+        <li>Hindi</li>
+        <li> Maths </li>
+    </ul>
+
+    <button class="btn btn-success">My First Button</button>
+
+    <a asp-controller="Student" asp-action="Index" class="btn btn-primary mt-3">View Students</a>
+
+    <div class="row justify-content-center mt-4">
+        <div class="col-md-4">
+            <a asp-controller="Student" asp-action="Index" class="text-decoration-none">
+                <div class="card home-card text-center">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Students</h4>
+                        <p class="card-text text-muted">View the list of all students</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

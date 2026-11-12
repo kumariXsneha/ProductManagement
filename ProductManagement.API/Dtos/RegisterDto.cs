@@ -1,0 +1,16 @@
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ProductManagement.API.Dtos
+{
+    public class RegisterDto
+    {
+        [Required, MaxLength(50)]
+        public string Username { get; set; } = string.Empty;
+
+        [Required, MaxLength(150), EmailAddress]
+        public string Email { get; set; } = string.Empty;
+
+        [Required, MinLength(6)]
+        public string Password { get; set; } = string.Empty;   // plain password: ONLY in the request, never stored
+    }
+}
